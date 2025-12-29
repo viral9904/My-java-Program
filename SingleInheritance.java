@@ -35,8 +35,12 @@ public class SingleInheritance {
 		System.out.println("Enter Accoun Holder Name:");
 		String name=s.nextLine();
 		
+		System.out.println("Name: "+ name);
+		
 		System.out.println("Enter Initial Balance: ");
 		double initialbal= s.nextDouble();
+		
+		System.out.println("nitial Balance: "+initialbal);
 		
 		SavingAccount ac = new SavingAccount("Jack", 10000);
 		ac.showbal();
